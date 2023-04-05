@@ -29,7 +29,18 @@ body{
    
 }
 .dados{
+    border: none;
+    border-radius: 20px;
     background-color: rgb(121, 130, 255);
     width: 400px;
     height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px;
+    margin: auto;
+}
+.rodape{
+    position: absolute;
+    bottom: 0px;
 }
