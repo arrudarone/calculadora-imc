@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcule seu IMC.</title>
+    <link rel="stylesheet" href="estilo/style.css">
+</head>
+<body>
+    <header class="cabeca">
+        <h1 class="cabeca-tit">Calcule seu IMC.</h1>
+        <p><strong>IMC</strong> significa <strong>Índice de Massa Corporal</strong> e trata-se de uma medida do peso de cada pessoa, sendo uma relação entre a <strong>massa da pessoa</strong> e <strong>a sua altura</strong> ao quadrado.</p>
+    </header>
+    <main class="dados">
+        <div class="dados-massa">
+            <label for="ialtura">Peso: </label>
+            <input type="number" name="peso" id="ipeso">
+            
+        </div>
+        <div class="dados-altura">
+            <label for="ialtura">Altura: </label>
+            <input type="number" name="altura" id="ialtura">
+        </div>
+        <input type="button" value="Calcular" class="botao" onclick="calcular()">
+        <div id="res" class="resultado">
+            Seu IMC é : 
+        </div>
+    </main>
+    <footer class="rodape">
+        Criado por: <a href="https://github.com/arrudarone" target="_blank" rel="external" class="rodape-txt">©RoneArruda</a>
+    </footer>
+    <script src="javascript/javascript.js"></script>
+</body>
+</html>
