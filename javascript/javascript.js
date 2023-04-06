@@ -5,6 +5,7 @@ function calcular(){
     let altura = document.getElementById('ialtura')
     let resultado = document.getElementById('res')
 
+    resultado.innerHTML = 'Seu IMC é :'
     if(peso.value.length == '0' || altura.value.length == '0'){
 
         window.alert('informe os dados corretamente!')
@@ -17,7 +18,7 @@ function calcular(){
         let alt = Number(altura.value)
         let imc = ms / (alt * 2)
 
-        res.innerHTML += ` ${imc.toFixed(1)} , parabéns`
+        resultado.innerHTML += ` ${imc.toFixed(1)} , parabéns`
 
         /*window.alert(`seu imc é: ${imc.toFixed(1)}`)*/
 

@@ -97,6 +97,7 @@ strong{
     text-align: center;
     margin-top: 30px;
     font-weight: bolder;
+    font-size: 0.8em;
 }
 input#ipeso, input#ialtura{
     border-radius: 8px;
