@@ -13,22 +13,24 @@
         <p><strong>IMC</strong> significa <strong>Índice de Massa Corporal</strong> e trata-se de uma medida do peso de cada pessoa, sendo uma relação entre a <strong>massa da pessoa</strong> e <strong>a sua altura</strong> ao quadrado.</p>
     </header>
     <main class="dados">
-        <div class="dados-massa">
-            <label for="ialtura">Peso: </label>
-            <input type="number" name="peso" id="ipeso">
-            
-        </div>
-        <div class="dados-altura">
-            <label for="ialtura">Altura: </label>
-            <input type="number" name="altura" id="ialtura">
-        </div>
-        <input type="button" value="Calcular" class="botao" onclick="calcular()">
+        <section class="dados-sessao">
+            <div class="dados-massa">
+                <label for="ialtura">Peso: </label>
+                <input type="number" name="peso" id="ipeso" placeholder="Seu peso Ex: 65" required> Kg
+                
+            </div>
+            <div class="dados-altura">
+                <label for="ialtura">Altura: </label>
+                <input type="number" name="altura" id="ialtura" placeholder="Altura em cm Ex: 170" required> cm
+            </div>
+            <input type="button" value="Calcular" class="botao" onclick="calcular()">
+        </section>
         <div id="res" class="resultado">
-            Seu IMC é : 
+            Seu IMC é (preencha os dados acima): 
         </div>
     </main>
     <footer class="rodape">
-        Criado por: <a href="https://github.com/arrudarone" target="_blank" rel="external" class="rodape-txt">©RoneArruda</a>
+        <p class="rodape-txt">Criado por: <a href="https://github.com/arrudarone" target="_blank" rel="external">©RoneArruda</a></p>
     </footer>
     <script src="javascript/javascript.js"></script>
 </body>
