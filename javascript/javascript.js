@@ -11,7 +11,16 @@ function calcular(){
          
         resultado.innerHTML += 'informe os campos corretamente'
 
-    }else if{
+    }else{
+
+        let ms = Number(peso.value)
+        let alt = Number(altura.value)
+        let imc = ms / (alt * 2)
+
+        res.innerHTML += ` ${imc.toFixed(1)} , parabéns`
+
+        /*window.alert(`seu imc é: ${imc.toFixed(1)}`)*/
+
         
     }
 
