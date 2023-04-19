@@ -13,6 +13,10 @@
         <p><strong>IMC</strong> significa <strong>Índice de Massa Corporal</strong> e trata-se de uma medida do peso de cada pessoa, sendo uma relação entre a <strong>massa da pessoa</strong> e <strong>a sua altura</strong> ao quadrado.</p>
     </header>
     <main class="dados">
+       
+        <div id="ilustra">
+            <img src="img/exercicio.png" alt="ilustracao">
+        </div>
         <section class="dados-sessao">
             <div class="dados-massa">
                 <label for="ialtura">Peso: </label>
@@ -24,10 +28,11 @@
                 <input type="number" name="altura" id="ialtura" placeholder="Altura cm Ex: 1.70" required>
             </div>
             <input type="button" value="Calcular" class="botao" onclick="calcular()">
+            <div id="res" class="resultado">
+                Seu IMC é : 
+            </div>
         </section>
-        <div id="res" class="resultado">
-            Seu IMC é : 
-        </div>
+        
     </main>
     <footer class="rodape">
         <p class="rodape-txt">Criado por: <a href="https://github.com/arrudarone" target="_blank" rel="external">©RoneArruda</a></p>
